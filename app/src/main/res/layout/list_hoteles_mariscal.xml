@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/foto_local"
+        android:layout_width="188dp"
+        android:layout_height="100dp"
+        android:src="@drawable/discovery"
+        />
+
+
+    <TextView
+        android:id="@+id/texto_local"
+        android:text="@string/discovery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6.57"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
